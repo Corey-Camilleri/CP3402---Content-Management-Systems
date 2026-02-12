@@ -1,5 +1,5 @@
-Learning Activities & Resources
-This week I studied more about CMS’s after finishing the practical, to learn more about different types of CMS and benefits, including CMS platforms, which I think may be useful for making a more knowledgeable comparison between the different CMS’s.
+# Learning Activities & Resources
+This week I studied more about CMS’s after finishing the practical, to learn more about different types of CMS and benefits, including CMS platforms, which I think may be useful for making a more knowledgeable comparison between the different CMSs.
 
 Youtube video on CMS basics, to understands points I need to study
 https://www.youtube.com/watch?v=fQMO9WQzMSY
@@ -9,15 +9,15 @@ CMS architecture: https://www.brightspot.com/cms-architecture
 CMS core components: https://paradoxmedia.com/what-is-the-purpose-of-a-content-management-system/#:~:text=Conclusion,systems%20to%20achieve%20your%20goals.
 CMS platforms: https://naturaily.com/blog/best-alternatives-to-wordpress
 
-Estimated hours
+# Estimated hours
 I spent about 1 hour and 30 minutes of my own time researching CMS
 
-Content Insights
+# Content Insights
 CMS is software that enable users to create, manage, and modify website contents without technical knowledge. I understand that the assignment is getting us to use a headful / traditional CMS, which manages the entire content library and web application end to end, offering an all-in-one package and accessibility.
 
 CMS has two core components, Content Management Application (CMA) and Content Delivery Application (CDA). The CMA allows users with low programming experience to easily add, edit, or delete website elements. The CDA stores all the data created within the CMA, retrieves relevant information from its database according to preference to display on screen.
 
-Career/Employability/Learning Insights
+# Career/Employability/Learning Insights
 CMS are actively used to have a central control of content across multiple channels and allow easy edits / updates to content without technical knowledge of coding, providing a cost-effective, rapid content development, security and scalability option. 
 
 I understand that using CMS is important in a wide range of industries that rely on a digital presence, content management, and online user engagement. Although this area might not be in the area of development I’m looking to pursue in the future / career, I still recognised learning this is important and its interesting leaning about what goes behind the online content I view.
