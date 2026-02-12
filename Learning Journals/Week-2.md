@@ -5,9 +5,9 @@ Youtube video on CMS basics, to understands points I need to study
 https://www.youtube.com/watch?v=fQMO9WQzMSY
 
 Websites on CMS art
-CMS architecture: https://www.brightspot.com/cms-architecture \
-CMS core components: https://paradoxmedia.com/what-is-the-purpose-of-a-content-management-system/#:~:text=Conclusion,systems%20to%20achieve%20your%20goals. \
-CMS platforms: https://naturaily.com/blog/best-alternatives-to-wordpress \
+- CMS architecture: https://www.brightspot.com/cms-architecture 
+- CMS core components: https://paradoxmedia.com/what-is-the-purpose-of-a-content-management-system/#:~:text=Conclusion,systems%20to%20achieve%20your%20goals. 
+- CMS platforms: https://naturaily.com/blog/best-alternatives-to-wordpress 
 
 # Estimated hours
 I spent about 1 hour and 30 minutes of my own time researching CMS
