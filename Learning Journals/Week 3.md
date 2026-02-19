@@ -2,8 +2,8 @@
 After the practical this week, I studied WordPress to learn more about important information, plugins I could use, 
 and possible limitations of the site builder, which have helped me understand what I could do with WordPress.
 
-Facts about WordPress: https://skillcrush.com/blog/13-wordpress-facts/
-Popular WordPress Plugins: https://en-au.wordpress.org/plugins/browse/popular/
+Facts about WordPress: https://skillcrush.com/blog/13-wordpress-facts/ \
+Popular WordPress Plugins: https://en-au.wordpress.org/plugins/browse/popular/ \
 Popular Websites that use WordPress: https://wordpress.org/showcase/
 
 # Estimated hours
