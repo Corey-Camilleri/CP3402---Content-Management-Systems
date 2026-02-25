@@ -1,0 +1,54 @@
+name: Deploy WordPress Theme
+
+on:
+  push:
+    branches: [develop, main]
+
+jobs:
+  deploy-staging:
+    if: github.ref == 'refs/heads/develop'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup SSH
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.STAGING_SSH_KEY }}" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan -H "${{ secrets.STAGING_HOST }}" >> ~/.ssh/known_hosts
+
+      - name: Deploy theme to staging
+        run: |
+          rsync -az --delete \
+            ./ \
+            ${{ secrets.STAGING_USER }}@${{ secrets.STAGING_HOST }}:/opt/bitnami/wordpress/wp-content/themes/mytheme/
+
+      - name: Fix permissions (optional)
+        run: |
+          ssh ${{ secrets.STAGING_USER }}@${{ secrets.STAGING_HOST }} \
+          "sudo chown -R bitnami:daemon /opt/bitnami/wordpress/wp-content/themes/mytheme"
+
+  deploy-production:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup SSH
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.PROD_SSH_KEY }}" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan -H "${{ secrets.PROD_HOST }}" >> ~/.ssh/known_hosts
+
+      - name: Deploy theme to production
+        run: |
+          rsync -az --delete \
+            ./ \
+            ${{ secrets.PROD_USER }}@${{ secrets.PROD_HOST }}:/opt/bitnami/wordpress/wp-content/themes/mytheme/
+
+      - name: Fix permissions (optional)
+        run: |
+          ssh ${{ secrets.PROD_USER }}@${{ secrets.PROD_HOST }} \
+          "sudo chown -R bitnami:daemon /opt/bitnami/wordpress/wp-content/themes/mytheme"
