@@ -11,6 +11,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Install rsync
+        run: sudo apt-get update && sudo apt-get install -y rsync
+
       - name: Setup SSH
         run: |
           mkdir -p ~/.ssh
@@ -23,11 +26,6 @@ jobs:
           rsync -az --delete \
             ./ \
             ${{ secrets.STAGING_USER }}@${{ secrets.STAGING_HOST }}:/opt/bitnami/wordpress/wp-content/themes/mytheme/
-
-      - name: Fix permissions (optional)
-        run: |
-          ssh ${{ secrets.STAGING_USER }}@${{ secrets.STAGING_HOST }} \
-          "sudo chown -R bitnami:daemon /opt/bitnami/wordpress/wp-content/themes/mytheme"
 
   deploy-production:
     if: github.ref == 'refs/heads/main'
