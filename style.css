@@ -47,14 +47,14 @@ h1 {
         opacity: 1;
     }
     25% {
-        opacity: 0.5;
+        opacity: 0;
     }
     50% {
         font-family: 'Times New Roman', Times, serif;
         opacity: 1;
     }
     75% {
-        opacity: 0.5;
+        opacity: 0;
     }
     100% {
         font-family: 'Georgia', serif;
