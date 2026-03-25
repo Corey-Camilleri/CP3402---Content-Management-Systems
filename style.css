@@ -41,7 +41,7 @@ h1 {
     animation: fontfamilychange 2s infinite alternate;
 }
 
-@keyframes fontchange {
+@keyframes fontfamilychange {
     0% {
         font-family: 'Arial', sans-serif;
     }
