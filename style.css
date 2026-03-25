@@ -19,9 +19,19 @@ h1 {
 }
 
 .wp-block-post-title {
-    font-size: 30px;
+    font-size: 40px;
     color: #ff4da6;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
+    animation: grow 1s infinite alternate;
+}
+
+@keyframes grow {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
 }
 
 main {
