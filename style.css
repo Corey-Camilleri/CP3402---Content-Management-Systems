@@ -38,12 +38,11 @@ h1 {
     font-size: 18px;
     line-height: 1.6;
     color: #ccc;
-    animation: fontfamilychange 2s infinite alternate;
+    animation: fontfamilychange 10s infinite alternate;
 }
 
 @keyframes fontfamilychange {
     0% {
-        font-family: 'Arial', sans-serif;
         opacity: 1;
         font-style: normal;
     }
@@ -52,7 +51,6 @@ h1 {
         font-style: italic;
     }
     50% {
-        font-family: 'Times New Roman', Times, serif;
         opacity: 1;
         font-style: normal;
     }
@@ -61,10 +59,8 @@ h1 {
         font-style: italic;
     }
     100% {
-        font-family: 'Georgia', serif;
         opacity: 1;
         font-style: normal;
-
     }
 }
 
