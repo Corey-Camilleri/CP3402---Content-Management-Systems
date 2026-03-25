@@ -34,6 +34,25 @@ h1 {
     }
 }
 
+.entry-content{
+    font-size: 18px;
+    line-height: 1.6;
+    color: #ccc;
+    animation: fontfamilychange 2s infinite alternate;
+}
+
+@keyframes fontchange {
+    0% {
+        font-family: 'Arial', sans-serif;
+    }
+    50% {
+        font-family: 'Times New Roman', Times, serif;
+    }
+    100% {
+        font-family: 'Georgia', serif;
+    }
+}
+
 main {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
