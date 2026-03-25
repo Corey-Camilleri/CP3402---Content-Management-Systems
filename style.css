@@ -44,12 +44,27 @@ h1 {
 @keyframes fontfamilychange {
     0% {
         font-family: 'Arial', sans-serif;
+        opacity: 1;
+        font-style: normal;
+    }
+    25% {
+        opacity: 0.5;
+        font-style: italic;
     }
     50% {
         font-family: 'Times New Roman', Times, serif;
+        opacity: 1;
+        font-style: normal;
+    }
+    75% {
+        opacity: 0.5;
+        font-style: italic;
     }
     100% {
         font-family: 'Georgia', serif;
+        opacity: 1;
+        font-style: normal;
+
     }
 }
 
