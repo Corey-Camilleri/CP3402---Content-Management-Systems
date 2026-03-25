@@ -18,6 +18,12 @@ h1 {
     font-size: 40px;
 }
 
+.wp-block-post-title {
+    font-size: 30px;
+    color: #ff4da6;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 main {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
