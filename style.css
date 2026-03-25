@@ -11,36 +11,39 @@ body {
 
 h1 {
     color: red;
+    font-weight: bold;
 }
 
 .site-title {
     font-size: 40px;
 }
 
-.footer {
+main {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer {
     background-color: #222;
     color: #aaa;
     padding: 20px;
     text-align: center;
 }
 
-.navbar {
+header {
     background-color: #333;
     padding: 10px;
 }
 
-.navbar a {
-    color: white;
-    text-decoration: none;
-    margin: 0 10px;
+.wp-block-navigation-item__label:hover {
+    color: #ff0;
+    animation: glow 1s infinite alternate;
 }
 
-.navbar a:hover {
-    text-decoration: underline;
-}
-
-.content {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
+@keyframes glow {
+    from {
+        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #e60073, 0 0 20px #e60073;
+    }
+    to {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6;
+    }
 }
