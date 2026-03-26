@@ -37,14 +37,14 @@ Hypothesis: Setting clear goals before starting a practical task will improve fo
 compared to starting without defined objectives.
 
 # Experiment: 
-•	Method A (Control / current practice): Begin the practical immediately without setting goals.
-•	Method B (Experiment): Spend 5–10 minutes writing 2–3 clear goals (e.g., “complete X feature,” “understand Y concept,” “avoid 
+* Method A (Control / current practice): Begin the practical immediately without setting goals.
+* Method B (Experiment): Spend 5–10 minutes writing 2–3 clear goals (e.g., “complete X feature,” “understand Y concept,” “avoid 
 using external help unless stuck for 10 minutes”).
 
 # Measures:
-•	Number of distractions or off-task behaviour (any deviations from the task)
-•	Task completion rate (finished/not finished) (before 1-2 hours for practical tasks, 2-3 researching and 1 hour for writing the learning journal)
-•	Confidence and clarity during the task (out of 10 – best)
+* Number of distractions or off-task behaviour (any deviations from the task)
+* Task completion rate (finished/not finished) (before 1-2 hours for practical tasks, 2-3 researching and 1 hour for writing the learning journal)
+* Confidence and clarity during the task (out of 10 – best)
 
 # Result: 
 
