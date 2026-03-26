@@ -28,14 +28,3 @@ Deployment (CI/CD), and automated deployment.
 
 # Career/Employability/Learning Insights
 Docker and AWS services like LightSail are core components of modern industry workflows, offering scalable, reliable, and production ready web systems, for example used for building websites. Developing practical experience with these technologies enables me to extend beyond theoretical knowledge to applied skills in deploying, managing, and maintaining applications.  These skills are directly valued by employers. This experience strengthens my employability by aligning skills with current industry technology, particularly cloud computing and development. Understanding how this technology impacts performance, accessibility, and user experience deepens my ability in user-centred design, which positions me more holistically and as an industry ready IT professional.
-
-# Linkedin Post
-I used to think strong coding skills were the secret to success. I was wrong.
-
-Early in my studies, I focused primarily on coding, which is my strength, and did not invest heavily in tools like WordPress or deployment platforms. This led to work that wasn’t always scalable, user-friendly, or aligned with real-world practices.
-
-The real lesson? Great development is more than coding, it’s understanding tools, infrastructure, and the user.
-
-Here is my takeaway, now, I focus on learning technologies like Docker, AWS, and CMS platforms in depth, alongside user-centred design, rather than just making things ‘work.’ It has made my work more scalable, efficient, customer focussed, and industry aligned.
-
-What’s an IT lesson that you have learnt recently? Please let me know in the comments!
